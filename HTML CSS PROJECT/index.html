@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project no1 of CSS of E-Commerce Website</title>
+    <!-- Load icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="css/utlis.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsiveness.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    </head>
+
+<body>
+    <div class="banner">
+        <img src="/img/this is real.gif" alt="e-basket" width="700px">
+    </div>
+    <header>
+
+        <nav>
+           <ul>
+
+               <a href="home.html" target="_blank">Home</a>
+               <a href="home.html" target="_blank">Shopping</a>
+               <a href="home.html" target="_blank">User Experience</a>
+               <a href="home.html" target="_blank">My Cart</a>
+               <a href="home.html" target="_blank">LogIn/SignUp</a>
+            </ul>
+            <div class="searchbar">
+                <input type="text" name="searchbar" id="search" placeholder="  Search Anything">
+                <button type="submit" class="Sbutton">
+                    <i class="fa fa-search"></i>
+
+                </button>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+
+            <!-- yahan se carousel wala shru hai -->
+
+            <div class="carousel" data-flickity='{ "autoPlay": true }'>
+                <div class="carousel-cell">
+                    <img src="https://images.unsplash.com/photo-1624409330593-7893ff293e7c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2978&q=80"
+                        alt="first">
+                </div>
+                <div class="carousel-cell"><img
+                        src="https://images.unsplash.com/photo-1602261321009-3800df6e19b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80"
+                        alt="second"></div>
+                <div class="carousel-cell"><img
+                        src="https://images.unsplash.com/photo-1580411737935-de5d0312fd68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2978&q=80"
+                        alt="third"></div>
+                <div class="carousel-cell"><img
+                        src="https://images.unsplash.com/photo-1618224706414-92301b84910d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+                        alt="fourth"></div>
+                <div class="carousel-cell"><img
+                        src="https://images.unsplash.com/photo-1547194936-28214bd75193?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+                        alt="fifth"></div>
+                <div class="carousel-cell"><img
+                        src="https://images.unsplash.com/photo-1512573904052-7303e38d683a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+                        alt="sixth"></div>
+            </div>
+            <!-- yahan se carousel wala khatam hai -->
+            <div class="shopping">
+                <h2>Today's Deals</h2>
+                <div class="shopContainer">
+                    <div class="shop" id="items1">
+                        <img src="https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1648&q=80"
+                            alt="lap1">
+                        <p>Price Ranges from:<br>10,000$ - 1,00,000$</p>
+                        <button type="submit">
+                            Explore Now
+                        </button>
+
+                    </div>
+                    <div class="shop" id="items2">
+                        <img src="https://images.unsplash.com/photo-1542393545-10f5cde2c810?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1001&q=80"
+                            alt="lap2">
+                        <p>Price Ranges from:<br>7,000$ - 80,000$</p>
+                        <button type="submit">
+                            Explore Now
+                        </button>
+                    </div>
+                    <div class="shop" id="items3">
+                        <img src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+                            alt="lap3">
+                        <p>Price Ranges from:<br>10,000$ - 5,00,000$</p>
+                        <button type="submit">
+                            Explore Now
+                        </button>
+                    </div>
+                    <div class="shop" id="items4">
+                        <img src="https://images.unsplash.com/photo-1558864559-ed673ba3610b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2978&q=80"
+                            alt="lap4">
+                        <p>Price Ranges from:<br>9,000$ - 90,000$</p>
+                        <button type="submit">
+                            Explore Now
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="shopContainer2">
+                    <div class="shop2" id="items21">
+                        <img src="https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2978&q=80"
+                            alt="lap21">
+                        <p>Price Ranges from:<br>10,000$ - 1,00,000$</p>
+                        <button type="submit">
+                            Explore Now
+                        </button>
+
+                    </div>
+                    <div class="shop2" id="items22">
+                        <img src="https://images.unsplash.com/photo-1592480859808-9c93f6e8218e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+                            alt="lap22">
+                        <p>Price Ranges from:<br>7,000$ - 80,000$</p>
+                        <button type="submit">
+                            Explore Now
+                        </button>
+                    </div>
+                    <div class="shop2" id="items23">
+                        <img src="https://images.unsplash.com/photo-1587560699334-cc4ff634909a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+                            alt="lap23">
+                        <p>Price Ranges from:<br>10,000$ - 5,00,000$</p>
+                        <button type="submit">
+                            Explore Now
+                        </button>
+                    </div>
+                    <div class="shop2" id="items24">
+                        <img src="https://images.unsplash.com/photo-1613398773682-9e272a85f203?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+                            alt="lap24">
+                        <p>Price Ranges from:<br>9,000$ - 90,000$</p>
+                        <button type="submit">
+                            Explore Now
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="deals">
+                
+                    <div class="CCD" id="dealItems1">
+                        <h2>Pay your credit card bills on Amazon</h2>
+                         <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/AmazonPay/Boson/Sid/CCBP/DesktopGateway_CategoryCard_758X608_CCBP._SY608_CB413372299_.jpg" alt="deal1">
+                         <button type="submit">
+                             Pay Now
+                             
+                         </button>
+                    </div>
+                    <div class="CCD" id="dealItems2">
+                        <h2>&nbsp;&nbsp;Top picks for your home</h2>
+                        <div class="dealItems2Container">
+                            <div class=" r dealItems2Container11">
+                                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-372x232----B08RDL6H79._SY232_CB667322346_.jpg" alt="img1">
+                                <p>Ac's</p>
+                            </div>
+                            <div class="r dealItems2Container12">
+                                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/B08345R1ZW---372x232._SY232_CB667322346_.jpg" alt="img2">
+                                <p>Refrigerator</p>
+                            </div>
+                            <div class="r dealItems2Container13">
+                                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/B07G5J5FYP._SY232_CB667322346_.jpg" alt="img4">
+                                <p>Microwaves</p>
+                            </div>
+                            <div class="r dealItems2Container14">
+                                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08CPQVLZT._SY232_CB667322346_.jpg" alt="img4">
+                                <p>Washing Machine</p>
+                            </div>
+                            
+
+                            <button type="submit">
+                                See more
+                                
+                            </button>                            
+                           
+                            
+
+                        </div>
+                    </div>
+                    <div class="CCD" id="dealItems3">
+                     <h2>Home essentials | Amazon Brands & more</h2>
+                     <div class="dealItems3Container">
+                        <div class=" r dealItems3Container21">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-1_372x232._SY232_CB430773130_.jpg" alt="img21">
+                            <p>Bedsheets, curtains 
+                               </p>
+                        </div>
+                        <div class="r dealItems3Container22">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-4_372x232._SY232_CB430773125_.jpg" alt="img22">
+                            <p>Cloth organizers, boxes & baskets
+                                  </p>
+                        </div>
+                        <div class="r dealItems3Container23">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-2_372x232._SY232_CB430773125_.jpg" alt="img23">
+                            <p>Wall stickers & clocks</p>
+                        </div>
+                        <div class="r dealItems3Container24">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-3_372x232._SY232_CB430773130_.jpg" alt="img24">
+                            <p>Smart bulbs & string lights</p>
+                        </div>
+                        
+
+                        <button type="submit">
+                            See more
+                            
+                        </button>                            
+                       
+
+                    </div>
+                   
+               
+            </div>
+
+
+
+        </div>
+
+    </main>
+
+    <footer class="flex-all-center">
+        <p>Copywrite ©Mycart.com</p>
+    </footer>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+
+</html>
